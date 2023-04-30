@@ -1,0 +1,42 @@
+.all-keyboard{
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+}
+
+#keyboard {
+    display: block;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 5px;
+    width: 835px;
+    display: table-cell;
+    background-color: silver;
+}
+
+#keyboard::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.k-key {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 3px;
+    padding: 3px;
+    float: left;
+    /* color: #fff; */
+}
+
+.clearfix{
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.active {
+    background: orange;
+}
