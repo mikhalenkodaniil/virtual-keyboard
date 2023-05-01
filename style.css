@@ -111,3 +111,12 @@ div[data="32"]{
 #down{
     transform: rotate(90deg);
 }
+
+div[data="spec"]{
+    background-color: gold;
+}
+
+p{
+    font-size: 20px;
+    color: red;
+}
