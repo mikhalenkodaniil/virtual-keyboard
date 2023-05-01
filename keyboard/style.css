@@ -7,9 +7,9 @@
 #keyboard {
     display: block;
     border: 2px solid black;
-    border-radius: 25px;
+    border-radius: 15px;
     padding: 5px;
-    width: 835px;
+    width: 975px;
     display: table-cell;
     background-color: silver;
 }
@@ -28,7 +28,8 @@
     margin: 3px;
     padding: 3px;
     float: left;
-    /* color: #fff; */
+    text-align: center;
+    line-height: 50px;
 }
 
 .clearfix{
@@ -39,4 +40,52 @@
 
 .active {
     background: orange;
+}
+
+#backspace{
+    width: 128px;
+}
+
+div[data="32"]{
+    width: 388px;
+}
+
+#tab{
+    width: 65px;
+}
+
+#caps-lock{
+    width: 90px;
+}
+
+#enter{
+    width: 152px;
+}
+
+#l-shift{
+    width: 128px;
+}
+
+#r-ctrl,
+#l-ctrl{
+    width: 80px;
+}
+
+#left,
+#right,
+#up,
+#down{
+    text-align: center;
+}
+
+#up{
+    transform: rotate(270deg);
+}
+
+#left{
+    transform: rotate(180deg);
+}
+
+#down{
+    transform: rotate(90deg);
 }
