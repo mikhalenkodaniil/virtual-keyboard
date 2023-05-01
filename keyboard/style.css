@@ -1,7 +1,29 @@
+.str-set{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 800px;
+    border-radius: 25px;
+    line-height: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+label{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 .all-keyboard{
     display: flex;
     justify-content: center;
-    margin-top: 400px;
+    margin-top: 30px;
 }
 
 #keyboard {
@@ -39,7 +61,7 @@
 }
 
 .active {
-    background: orange;
+    background: #fff;
 }
 
 #backspace{
